@@ -25,4 +25,4 @@ app.listen(3000, function() {
 });
 
 // Load route
-require('./routes/index')(app, conn);
+require('./routes/api')(app, conn);
